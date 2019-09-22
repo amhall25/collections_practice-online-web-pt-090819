@@ -22,7 +22,7 @@ end
 def kesha_maker(array)
   newarray=[]
   array.each do |name|
-    name[2]=$
+    name[2]="$"
     newarray << name
   end
   return newarray
