@@ -29,9 +29,11 @@ def kesha_maker(array)
 end
 
 def find_a(array)
+  swa=[]
   array.each do |string|
     if string.start_with? ("a")
-      return string
+      swa<< string
     end
   end
+  return swa
 end
