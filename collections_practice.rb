@@ -47,12 +47,14 @@ def sum_array(array)
 end
 
 def add_s(array)
+  newarray=[]
   array.each do |word|
     if word=="feet"
-      word
+      newarray<< word
     else 
-      word=word+"s"
+      newarray << word+"s"
     end
   end
+  newarray
 end
   
