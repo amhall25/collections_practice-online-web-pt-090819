@@ -30,4 +30,8 @@ end
 
 def find_a(array)
   array.each do |string|
-    if string
+    if string.start_with? ("a")
+      return string
+    end
+  end
+end
