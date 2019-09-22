@@ -18,3 +18,14 @@ end
 def reverse_array(array)
   array.reverse
 end
+
+def kesha_maker(array)
+  newarray=[]
+  array.each do |name|
+    name[2]=$
+    newarray << name
+  end
+  return newarray
+end
+
+
