@@ -28,4 +28,6 @@ def kesha_maker(array)
   return newarray
 end
 
-
+def find_a(array)
+  array.each do |string|
+    if string
